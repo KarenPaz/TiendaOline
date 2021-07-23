@@ -32,7 +32,7 @@ namespace TiendaOnline.Win
         {
             var listadeVentasPorProducto = _reporteVentasPorProductoBL.ObtenerVentasPorProducto();
             listadeVentasPorProductoBindingSource.DataSource = listadeVentasPorProducto;
-             listadeVentasPorProductoBindingSource.ResetBindings(false)  
+            listadeVentasPorProductoBindingSource.ResetBindings(false);  
         }
 
     }
